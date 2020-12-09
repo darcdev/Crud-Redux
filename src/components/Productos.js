@@ -1,6 +1,19 @@
 import React from "react";
 const Productos = () => {
-  return <h1>Productos</h1>;
+  return (
+    <>
+      <h2 className="text-center my-5">Lista de Productos</h2>
+      <table className="table table-striped">
+        <thead className="bg-primary table-dark">
+          <tr>
+            <th scope="col">Nombre</th>
+            <th scope="col">Precio</th>
+            <th scope="col">Acciones</th>
+          </tr>
+        </thead>
+      </table>
+    </>
+  );
 };
 
 export default Productos;

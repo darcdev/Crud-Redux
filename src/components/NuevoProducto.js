@@ -10,6 +10,12 @@ const NuevoProducto = () => {
 
   //usar use Dispatch y te crea una funcion
   const dispatch = useDispatch();
+
+  // Acceder al state del store
+
+  const cargando = useSelector((state) => state.productos.loading);
+  const error = useSelector((state) => state.productos.error);
+
   const agregarProducto = (producto) =>
     dispatch(crearNuevoProductoAction(producto));
 
@@ -67,6 +73,10 @@ const NuevoProducto = () => {
                 Agregar Producto
               </button>
             </form>
+            {cargando ? <p>Cargando...</p> : null}
+            {error ? (
+              <p className="alert alert-danger p2 mt-4">Hubo un error</p>
+            ) : null}
           </div>
         </div>
       </div>

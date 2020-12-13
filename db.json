@@ -14,6 +14,16 @@
       "nombre": "Melocoton",
       "precio": 2000,
       "id": 13
+    },
+    {
+      "nombre": "merca",
+      "precio": 1200,
+      "id": 14
+    },
+    {
+      "nombre": "merca",
+      "precio": 1200,
+      "id": 15
     }
   ]
 }

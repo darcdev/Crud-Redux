@@ -85,7 +85,6 @@ const descargaProductosError = (estado) => ({
 });
 
 // Seleccionar y eliminar el producto
-
 export function borrarProductoAction(id) {
   return async (dispatch) => {
     dispatch(obtenerProductoEliminar(id));

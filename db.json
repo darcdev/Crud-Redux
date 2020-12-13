@@ -1,14 +1,19 @@
 {
   "productos": [
     {
-      "nombre": "merca",
-      "precio": 2000,
+      "nombre": "Papa",
+      "precio": 1200,
       "id": 10
     },
     {
       "nombre": "Papaya",
-      "precio": 5000,
+      "precio": 1000,
       "id": 12
+    },
+    {
+      "nombre": "Melocoton",
+      "precio": 2000,
+      "id": 13
     }
   ]
 }
